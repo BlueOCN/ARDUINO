@@ -6,11 +6,16 @@ Arduino IDE library for the SHARP INFRARED GP2Y0A21YK0F distance sensor
 |Access Specifier|Type|Name|Description
 |:-----|:-----|:-----|:----------
 |Protected|int|**SIGNAL_pin** |Pin number where the sensor is connected
-|Protected|float|**SAMP** |Sample value deliverd by the integrated 12 bits ADC
+|Protected|float|**SAMP** |Sample value delivered by the integrated 12 bits ADC
 |Protected|float|**VADC** |Voltage read by the ADC at SIGNAL_pin
 |Protected|float|**DIST** |Distance between the sensor emiter-transmiter and the reflective surface
 
 ## CONSTRUCTORS
+
+|Access Specifier|Name|Parameters|Description
+|:-----|:-----|:-----|:----------
+|public|**GP2Y0A21YK0F**|SIGNAL_pin|Pin number where the sensor is connected
+
 To create an instance of the sensor use:
 ```
 GP2Y0A21YK0F sensor_ID (PIN_NUMBER);
