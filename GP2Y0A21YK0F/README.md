@@ -1,8 +1,8 @@
 # GP2Y0A21YK0F
 Arduino IDE library for the SHARP INFRARED GP2Y0A21YK0F distance sensor
 ## ![image](https://user-images.githubusercontent.com/107767647/174457942-c281ed91-2fde-4ea0-a6b6-254e38888d1f.png)
-[I'm an inline-style link with title]([https://www.google.com](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/GP2Y0A21YK0F.pdf) "GP2Y0A21YK0F's Datasheet")
-
+[I'm an inline-style link with title](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/GP2Y0A21YK0F.pdf "GP2Y0A21YK0F's Datasheet")
+[I'm an inline-style link with title2](https://www.google.com "Google's Homepage")
 ## VARIABLES
 
 |Access Specifier|Type|Name|Description
