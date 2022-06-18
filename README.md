@@ -2,12 +2,26 @@
 ARDUINO IDE libraries for common sensors, actuators and electronical interfaces for Robotics.
 
 ## Distance Sensors
-1. First ordered list item
-2. Another item
-    2.1 asdasd
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
 ## Proximity Sensors
-...
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
 ## Speakers
-...
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
 ## Displays
-...
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
