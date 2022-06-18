@@ -21,7 +21,7 @@ To create an instance of the sensor use:
 ```
 GP2Y0A21YK0F sensor_ID (PIN_NUMBER);
 ```
-Remeber tu use an analog pin to get access to the arduino integrated 12 bits ADC
+Remember, use an analog pin to get access to the arduino integrated 12 bits ADC
 
 ## METHODS
 
