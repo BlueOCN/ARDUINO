@@ -18,8 +18,8 @@ GP2Y0A21YK0F sensor_ID (PIN_NUMBER);
 Remeber tu use an analog pin to get access to the arduino integrated 12 bits ADC
 ## METHODS
 
-|Access Specifier||Return type |Method | Params  | Description
-|:-----|:----- | :----- | :---------- | :------
+|Access Specifier||Return type|Method|Parameters|Description
+|:---------|:-----|:--------|:----------|:------
 |Protected|int|**get_SIGNAL_pin** |   none | Returns the pin number where the sensor is connected
 |Protected|float|**get_SAMP** |  none | Returns the sample value deliverd by the integrated 12 bits ADC
 |Protected|float|**get_VADC** |     none  | Returns the voltage equivalent of the sample delivered by the integrated 12 bits ADC
