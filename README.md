@@ -4,8 +4,8 @@ ARDUINO IDE libraries for common sensors, actuators and electronical interfaces 
 ## Distance Sensors
 1. First ordered list item
 2. Another item
-...1 asdasdasd
-...2 asdasdasd
+...1. asdasdasd
+...2. asdasdasd
 ## Proximity Sensors
 ...
 ## Speakers
