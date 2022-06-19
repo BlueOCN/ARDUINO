@@ -13,7 +13,12 @@ ARDUINO IDE libraries for common sensors, actuators and electronical interfaces 
   - Sub Item 1
   - Sub Item 2
 ## Proximity Sensors
-- Item 1
+- [IRFC51 proximity sensor](https://github.com/BlueOCN/ARDUINO/tree/main/IRFC51 "IRFC51's Library")
+  - Distance measuring range: 2 to 30 cm
+  - Digital output type
+  - Package size: 40×10×8 mm
+  - Consumption current: Typ. 20 mA
+  - Supply voltage: 3.3 to 5V
 - Item 2
 - Item 3
   - Sub Item 1
