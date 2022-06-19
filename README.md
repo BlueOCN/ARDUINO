@@ -2,7 +2,12 @@
 ARDUINO IDE libraries for common sensors, actuators and electronical interfaces for Robotics.
 
 ## Distance Sensors
-- Item 1
+- GP2Y0A21YK0F SHARP distance measuring sensor
+  - Distance measuring range: 10 to 80 cm
+  - Analog output type
+  - Package size: 29.5×13×13.5 mm
+  - Consumption current: Typ. 30 mA
+  - Supply voltage: 4.5 to 5.5V
 - Item 2
 - Item 3
   - Sub Item 1
