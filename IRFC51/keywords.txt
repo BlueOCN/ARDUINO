@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map ColorConverter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+IRFC51	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+get_signal_pin	KEYWORD2
+get_state	KEYWORD2
+get_object	KEYWORD2
+set_signal_pin	KEYWORD2
+IRFC51_init_	KEYWORD2
+switch_STATE	KEYWORD2
+switch_STATE_up	KEYWORD2
+switch_STATE_down	KEYWORD2
+detect_object	KEYWORD2
+toString	KEYWORD2
+IRFC51_Test	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
