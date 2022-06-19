@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map ColorConverter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+GP2Y0A21YK0F	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+get_SIGNAL_pin	KEYWORD2
+get_SAMP	KEYWORD2
+get_VADC	KEYWORD2
+get_DIST	KEYWORD2
+get_stable_DIST	KEYWORD2
+set_SIGNAL_pin	KEYWORD2
+set_SAMP	KEYWORD2
+set_VADC	KEYWORD2
+set_DIST	KEYWORD2
+GP2Y0A21YK0F_init_	KEYWORD2
+GP2Y0A21YK0F_test_	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
