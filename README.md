@@ -1,8 +1,9 @@
 # ARDUINO
 ARDUINO IDE libraries for common sensors, actuators and electronical interfaces for Robotics.
+https://github.com/BlueOCN/ARDUINO/tree/main/GP2Y0A21YK0F
 
 ## Distance Sensors
-- GP2Y0A21YK0F SHARP distance measuring sensor
+- [GP2Y0A21YK0F SHARP distance measuring sensor](https://github.com/BlueOCN/ARDUINO/tree/main/GP2Y0A21YK0F "GP2Y0A21YK0F's Library")
   - Distance measuring range: 10 to 80 cm
   - Analog output type
   - Package size: 29.5×13×13.5 mm
