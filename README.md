@@ -1,6 +1,5 @@
 # ARDUINO
 ARDUINO IDE libraries for common sensors, actuators and electronical interfaces for Robotics.
-https://github.com/BlueOCN/ARDUINO/tree/main/GP2Y0A21YK0F
 
 ## Distance Sensors
 - [GP2Y0A21YK0F SHARP distance measuring sensor](https://github.com/BlueOCN/ARDUINO/tree/main/GP2Y0A21YK0F "GP2Y0A21YK0F's Library")
