@@ -1,0 +1,52 @@
+#######################################
+# Syntax Coloring Map ColorConverter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+L2988N	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+get_ENA_pin	KEYWORD2
+get_ENB_pin	KEYWORD2
+get_IN1_pin	KEYWORD2
+get_IN2_pin	KEYWORD2
+get_IN3_pin	KEYWORD2
+get_IN4_pin	KEYWORD2
+
+set_ENA_pin	KEYWORD2
+set_ENB_pin	KEYWORD2
+set_ENA_PWM	KEYWORD2
+set_ENB_PWM	KEYWORD2
+set_ENS_PWM	KEYWORD2
+set_IN1_pin	KEYWORD2
+set_IN2_pin	KEYWORD2
+set_IN3_pin	KEYWORD2
+set_IN4_pin	KEYWORD2
+
+free_movement_A	KEYWORD2
+free_movement_B	KEYWORD2
+free_movement	KEYWORD2
+fix_position_A	KEYWORD2
+fix_position_B	KEYWORD2
+fix_position	KEYWORD2
+roll_clockwise_A	KEYWORD2
+roll_clockwise_B	KEYWORD2
+roll_counter_clockwise_A	KEYWORD2
+roll_counter_clockwise_B	KEYWORD2
+roll_clockwise	KEYWORD2
+roll_counter_clockwise	KEYWORD2
+rotate_left	KEYWORD2
+rotate_right	KEYWORD2
+motorTest	KEYWORD2
+status_str	KEYWORD2
+to_String	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
