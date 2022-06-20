@@ -32,7 +32,7 @@ L298N motorDriver_ID (ENA_pin,ENB_pin,IN1_pin,IN2_pin,IN3_pin,IN4_pin);
 Remember, be carefull when connecting Vs, Vss and Gnd.
 
 ## METHODS
-_Be aware that all methods included where designed to control a car with 2 motorized wheels._
+_Be aware, all methods included where designed to control a car with 2 motorized wheels._
 
 ### Getters
 |Access Specifier|Return type|Method|Parameters|Description
@@ -60,9 +60,9 @@ _Be aware that all methods included where designed to control a car with 2 motor
 ### Methods
 |Access Specifier|Return type|Method|Parameters|Description
 |:---------|:-----|:--------|:----------|:------
-|public|void|**free_movement_A**|none| Free running motor (No currennt) stop controlled by enable A. Connected to L298N OUTPUT1 and OUTPUT2 pins
-|public|void|**free_movement_B**|none| Free running motor (No currennt) stop controlled by enable B. Connected to L298N OUTPUT3 and OUTPUT4 pins
-|public|void|**free_movement**|none| Free running motor (No currennt) stop controlled by enable A and B. Connected to L298N OUTPUT1, OUTPUT2, OUTPUT3, OUTPUT4 pins
+|public|void|**free_movement_A**|none| Free running motor stop (No currennt) controlled by enable A. Connected to L298N OUTPUT1 and OUTPUT2 pins
+|public|void|**free_movement_B**|none| Free running motor stop (No currennt) controlled by enable B. Connected to L298N OUTPUT3 and OUTPUT4 pins
+|public|void|**free_movement**|none| Free running motor stop (No currennt) controlled by enable A and B. Connected to L298N OUTPUT1, OUTPUT2, OUTPUT3, OUTPUT4 pins
 |public|void|**fix_position_A**|none| Fixed position motor stop controlled by enable A. Connected to L298N OUTPUT1 and OUTPUT2 pins
 |public|void|**fix_position_B**|none| Fixed position motor stop controlled by enable B. Connected to L298N OUTPUT3 and OUTPUT4 pins
 |public|void|**fix_position**|none| Fixed position motor stop controlled by enable A and B. Connected to L298N OUTPUT1, OUTPUT2, OUTPUT3, OUTPUT4 pins
