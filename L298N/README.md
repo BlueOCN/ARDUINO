@@ -7,7 +7,7 @@ Arduino IDE library for the ST L298N Dual full bridge driver.
 
 |Access Specifier|Type|Name|Description
 |:-----|:-----|:-----|:----------
-|Protected|int|**STATUS**|Sensor's state flag (0:OFF 1:ON)
+|Protected|int|**STATUS**|Motor driver's state flag (0:OFF 1:ON)
 |Protected|int|**ENA_pin**|Arduino board pin where the TTL compatible Enable A input is connected
 |Protected|int|**ENB_pin**|Arduino board pin where the TTL compatible Enable B input is connected
 |Protected|int|**IN1_pin**|Arduino board pin where the TTL compatible A input is connected (Linked to OUTPUT 1)
