@@ -22,7 +22,7 @@ Arduino IDE library for the ST L298N Dual full bridge driver.
 |public|**L298N**|int IN1_pin, int IN2_pin, int IN3_pin, int IN4_pin| Creates an instance of the motor driver assumng A and B enables are connected to L298N module internal TTL power supply
 |public|**L298N**|int ENA_pin, int ENB_pin, int IN1_pin, int IN2_pin, int IN3_pin, int IN4_pin| Creates an instance of the motor driver where A and B enables are externarly provided. Allows +12V power supply voltage
 
-To create an instance of the sensor use:
+To create an instance of the motor driver use:
 ```
 L298N motorDriver_ID (IN1_pin,IN2_pin,IN3_pin,IN4_pin);
 ```
