@@ -23,13 +23,17 @@ ARDUINO IDE libraries for common sensors, actuators and electronical interfaces 
 - Item 3
   - Sub Item 1
   - Sub Item 2
-## Speakers
-- Item 1
-- Item 2
+## Motor Drivers
+- [ST L298N Dual full bridge driver](https://github.com/BlueOCN/ARDUINO/tree/main/L298N "L298N's Library")
+  - Operating supply voltage: (Input High Voltage + 2.5) - 46 V
+  - Logic supply voltage: 4.5 - 7 V
+  - Package size: 40×10×8 mm
+  - Consumption current: Typ. 20 mA
+  - Supply voltage: 3.3 to 5V
 - Item 3
   - Sub Item 1
   - Sub Item 2
-## Displays
+## Speakers
 - Item 1
 - Item 2
 - Item 3
