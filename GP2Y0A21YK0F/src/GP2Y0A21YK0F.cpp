@@ -34,12 +34,20 @@ float GP2Y0A21YK0F::get_VADC() {
   return (VADC);
 }
 float GP2Y0A21YK0F::get_DIST() {
-  DIST = 27.86 * pow(get_VADC(), -1.15);
+  if (get_VADC() >= 2.25){ DIST = 10.0; }
+  else if (get_VADC() <= 0.435) { DIST = 80.0; }
+  else {
+    DIST = 28.365 * (pow(get_VADC(), -1.218));
+  }
   return (DIST);
 }
 float GP2Y0A21YK0F::get_stable_DIST() {
   delay(50);      // Time until measurment stabilizes
-  DIST = 27.86 * pow(get_VADC(), -1.15);
+  if (get_VADC() >= 2.25){ DIST = 10.0; }
+  else if (get_VADC() <= 0.435) { DIST = 80.0; }
+  else {
+    DIST = 28.365 * (pow(get_VADC(), -1.218));
+  }
   return (DIST);
 }
 //-----------------------------------------------------//
