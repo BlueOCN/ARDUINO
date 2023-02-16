@@ -33,6 +33,16 @@ ARDUINO IDE libraries for common sensors, actuators and electronical interfaces 
 - Item 3
   - Sub Item 1
   - Sub Item 2
+## Motor Encoders
+- [POLOLU 37D Metal Gearmotors encoder]
+  - Hall-effect sensor with magnetic disc.
+  - 64 counts per revolution (CPR) resolution
+  - Supply voltage: 3.5 V - 20 V
+  - Max current: 10 mA
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
 ## Speakers
 - Item 1
 - Item 2
