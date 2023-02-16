@@ -8,7 +8,7 @@
 //L298N no_enables_motor_driver (7,8,9,10);
 
 //L298N *name* (ENA,ENB,IN1,IN2,IN3,IN4)
-L298N enables_motor_driver (3,3,4,5,6,7);
+L298N enables_motor_driver (5,5,2,4,7,8);
 //-----------------------------------------------------//
 //---------------------- Setup ------------------------//
 void setup() {
@@ -18,9 +18,9 @@ void setup() {
 
 void loop() { 
   //no_enables_motor_driver.motorTest();
-  //enables_motor_driver.motorTest();
-  enables_motor_driver.roll_clockwise_A(100);
-  delay(500);
-  enables_motor_driver.roll_counter_clockwise(100);
-  delay(500);
+  enables_motor_driver.motorTest();
+  //enables_motor_driver.roll_clockwise_A(100);
+  //delay(500);
+  //enables_motor_driver.roll_counter_clockwise(100);
+  //delay(500);
 }

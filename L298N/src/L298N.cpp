@@ -147,11 +147,11 @@ void L298N::fix_position_B() {
 void L298N::roll_clockwise_A(int pwm) {
   STATUS = 5;
   if (ENA_pin == -1) {
-    digitalWrite(IN1_pin, HIGH);
-    digitalWrite(IN2_pin, LOW);
+    digitalWrite(IN1_pin, LOW);
+    digitalWrite(IN2_pin, HIGH);
   } else {
-    digitalWrite(IN1_pin, HIGH);
-    digitalWrite(IN2_pin, LOW);
+    digitalWrite(IN1_pin, LOW);
+    digitalWrite(IN2_pin, HIGH);
     if (pwm > 255){analogWrite(ENA_pin, 255);}
     else if (pwm < 0){analogWrite(ENA_pin, 0);}
     else {analogWrite (ENA_pin, pwm);}
@@ -162,11 +162,11 @@ void L298N::roll_clockwise_A(int pwm) {
 void L298N::roll_clockwise_B(int pwm) {
   STATUS = 7;
   if (ENB_pin == -1) {
-    digitalWrite(IN3_pin, HIGH);
-    digitalWrite(IN4_pin, LOW);
+    digitalWrite(IN3_pin, LOW);
+    digitalWrite(IN4_pin, HIGH);
   } else {
-    digitalWrite(IN3_pin, HIGH);
-    digitalWrite(IN4_pin, LOW);
+    digitalWrite(IN3_pin, LOW);
+    digitalWrite(IN4_pin, HIGH);
     if (pwm > 255){analogWrite(ENB_pin, 255);}
     else if (pwm < 0){analogWrite(ENB_pin, 0);}
     else {analogWrite (ENB_pin, pwm);}
@@ -177,11 +177,11 @@ void L298N::roll_clockwise_B(int pwm) {
 void L298N::roll_counter_clockwise_A(int pwm) {
   STATUS = 6;
   if (ENA_pin == -1) {
-    digitalWrite(IN1_pin, LOW);
-    digitalWrite(IN2_pin, HIGH);
+    digitalWrite(IN1_pin, HIGH);
+    digitalWrite(IN2_pin, LOW);
   } else {
-    digitalWrite(IN1_pin, LOW);
-    digitalWrite(IN2_pin, HIGH);
+    digitalWrite(IN1_pin, HIGH);
+    digitalWrite(IN2_pin, LOW);
     if (pwm > 255){analogWrite(ENA_pin, 255);}
     else if (pwm < 0){analogWrite(ENA_pin, 0);}
     else {analogWrite (ENA_pin, pwm);}
@@ -192,11 +192,11 @@ void L298N::roll_counter_clockwise_A(int pwm) {
 void L298N::roll_counter_clockwise_B(int pwm) {
   STATUS = 8;
   if (ENB_pin == -1) {
-    digitalWrite(IN3_pin, LOW);
-    digitalWrite(IN4_pin, HIGH);
+    digitalWrite(IN3_pin, HIGH);
+    digitalWrite(IN4_pin, LOW);
   } else {  
-    digitalWrite(IN3_pin, LOW);
-    digitalWrite(IN4_pin, HIGH);
+    digitalWrite(IN3_pin, HIGH);
+    digitalWrite(IN4_pin, LOW);
 
     if (pwm > 255){analogWrite(ENB_pin, 255);}
     else if (pwm < 0){analogWrite(ENB_pin, 0);}
